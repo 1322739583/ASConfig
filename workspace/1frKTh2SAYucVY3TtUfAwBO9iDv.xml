@@ -1,0 +1,398 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/HomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/analytics/views/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/analytics/views/FuncTitle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/uapp.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/umeng/soexample/BuildConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/umeng/soexample/ExampleInstrumentedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/umeng/soexample/ExampleUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="48" />
+    <option name="width" value="1318" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
+              <item name="debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.soexample" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.soexample" type="1f31426a:PackageElementNode" />
+              <item name="analytics" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.soexample" type="1f31426a:PackageElementNode" />
+              <item name="analytics" type="1f31426a:PackageElementNode" />
+              <item name="views" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.soexample" type="1f31426a:PackageElementNode" />
+              <item name="push" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.soexample" type="1f31426a:PackageElementNode" />
+              <item name="share" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.soexample" type="1f31426a:PackageElementNode" />
+              <item name="twitterapi" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.soexample" type="1f31426a:PackageElementNode" />
+              <item name="views" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="layout" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="xml" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="616d4139:PackageViewModuleNode" />
+              <item name="com.umeng.message.lib" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="616d4139:PackageViewModuleNode" />
+              <item name="drawable" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="616d4139:PackageViewModuleNode" />
+              <item name="layout" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="UMLibrary" type="616d4139:PackageViewModuleNode" />
+              <item name="values" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="MultiFunctionAndroidDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="MultiFunctionAndroidDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="0" width="1318" height="768" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Resources Explorer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5301391" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Services" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Debugger" order="4" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="234" column="37" selection-start-line="234" selection-start-column="37" selection-end-line="234" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/umeng/soexample/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/umeng/soexample/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/umeng/soexample/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/analytics/views/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/umeng/soexample/analytics/views/FuncTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/uapp.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

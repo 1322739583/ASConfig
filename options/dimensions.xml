@@ -1,0 +1,33 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="706" y="346" />
+    <location key="FileChooserDialogImpl.0.0.1366.768" x="489" y="105" />
+    <location key="ProcessPopupWindow.0.0.1366.768" x="904" y="571" />
+    <location key="SettingsEditor.0.0.1366.768" x="170" y="38" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1366.768" x="385" y="211" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1366.768" x="514" y="103" />
+    <location key="psd.add.library.dependency.panel.dimension.0.0.1366.768" x="327" y="127" />
+    <location key="psd.add.module.dependency.panel.dimension.0.0.1366.768" x="403" y="20" />
+    <location key="#PSD.0.0.1366.768" x="48" y="178" />
+    <location key="#module-user.0.0.1366.768" x="391" y="31" />
+    <location key="ide.config.custom.settings.0.0.1366.768" x="481" y="272" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" x="171" y="5" />
+    <location key="run.anything.popup.0.0.1366.768" x="371" y="169" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1366.768" x="445" y="142" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1366.768" x="445" y="134" />
+    <location key="search.everywhere.popup.0.0.1366.768" x="370" y="88" />
+    <location key="IDE.errors.dialog.0.0.1366.768" x="295" y="121" />
+    <location key="refactoring.ChangeSignatureDialog.0.0.1366.768" x="417" y="15" />
+    <location key="AndroidThemeDialog.0.0.1366.768" x="295" y="92" />
+    <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.1366.768" x="414" y="254" />
+    <location key="extract.method.dialog.0.0.1366.768" x="445" y="148" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1366.768" x="460" y="223" />
+    <size key="ProcessPopupWindow.0.0.1366.768" width="400" height="196" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1276" height="68" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1276" height="68" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1276" height="68" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1276" height="68" />
+    <size key="search.everywhere.popup.0.0.1366.768" width="672" height="678" />
+    <size key="FileChooserDialogImpl.0.0.1366.768" width="424" height="483" />
+  </component>
+</application>
