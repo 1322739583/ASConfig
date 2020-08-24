@@ -14,4 +14,40 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="rxjava" value="implementation 'io.reactivex.rxjava2:rxjava:2.1.6'&#10;implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="glide" value="implementation 'com.github.bumptech.glide:glide:4.11.0'&#10;annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="retrofit" value="implementation 'com.squareup.retrofit2:retrofit:2.7.2'&#10;implementation 'com.squareup.okhttp3:okhttp:3.12.1'&#10;implementation 'org.ligboy.retrofit2:converter-fastjson-android:2.1.0'&#10;implementation 'com.squareup.retrofit2:converter-gson:2.1.0'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="dagger" value="implementation 'com.google.dagger:dagger-android:2.15'&#10;implementation 'com.google.dagger:dagger-android-support:2.15'&#10;annotationProcessor 'com.google.dagger:dagger-android-processor:2.15'&#10;implementation 'com.google.dagger:dagger:2.26'&#10;annotationProcessor 'com.google.dagger:dagger-compiler:2.26'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="fastjson" value="implementation 'com.alibaba:fastjson:1.2.61'&#10;implementation 'com.alibaba:fastjson:1.1.71.android'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="skeleton" value="implementation 'com.ethanhua:skeleton:1.1.2'&#10;implementation 'io.supercharge:shimmerlayout:2.1.0'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="leakcanary" value="debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.4'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="permissionsdispatcher" value="implementation &quot;org.permissionsdispatcher:permissionsdispatcher:4.7.0&quot;&#10;annotationProcessor &quot;org.permissionsdispatcher:permissionsdispatcher-processor:4.7.0&quot;" toReformat="false" toShortenFQNames="true" />
 </templateSet>
