@@ -1,0 +1,12 @@
+<templateSet group="Retrofit">
+  <template name="retrofit" value="implementation 'com.squareup.retrofit2:retrofit:2.7.2'&#10;implementation 'com.squareup.okhttp3:okhttp:3.12.1'&#10;implementation 'org.ligboy.retrofit2:converter-fastjson-android:2.1.0'&#10;implementation 'com.squareup.retrofit2:converter-gson:2.1.0'&#10;implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="retrofit-service-gen" value="public class ServiceGenerator {&#10;    private static final String BASE_URL = &quot;https://api.github.com/&quot;;&#10;    private static Retrofit.Builder builder=new Retrofit.Builder()&#10;             .baseUrl(BASE_URL) // 设置 网络请求 Url&#10;            .addConverterFactory(GsonConverterFactory.create()) ;&#10;    private static Retrofit retrofit=builder.build();&#10;&#10;    private static HttpLoggingInterceptor loggingInterceptor=new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY);&#10;&#10;    private static OkHttpClient.Builder httpBuilder=new OkHttpClient.Builder();&#10;&#10;&#10;&#10;    public static &lt;S&gt; S createService(Class&lt;S&gt; serviceClass){&#10;        if (!httpBuilder.interceptors().contains(loggingInterceptor)) {&#10;            httpBuilder.addInterceptor(loggingInterceptor);&#10;            builder = builder.client(httpBuilder.build());&#10;            retrofit = builder.build();&#10;        }&#10;        return retrofit.create(serviceClass);&#10;    };&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
