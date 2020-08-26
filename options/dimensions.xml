@@ -10,7 +10,7 @@
     <location key="psd.add.module.dependency.panel.dimension.0.0.1366.768" x="403" y="20" />
     <location key="#PSD.0.0.1366.768" x="48" y="178" />
     <location key="#module-user.0.0.1366.768" x="391" y="31" />
-    <location key="ide.config.custom.settings.0.0.1366.768" x="481" y="272" />
+    <location key="ide.config.custom.settings.0.0.1366.768" x="101" y="272" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" x="171" y="5" />
     <location key="run.anything.popup.0.0.1366.768" x="371" y="169" />
     <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1366.768" x="445" y="142" />
@@ -22,12 +22,14 @@
     <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.1366.768" x="414" y="254" />
     <location key="extract.method.dialog.0.0.1366.768" x="445" y="148" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1366.768" x="460" y="223" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.0.0.1366.768" x="415" y="65" />
     <size key="ProcessPopupWindow.0.0.1366.768" width="400" height="196" />
-    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1276" height="68" />
-    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1276" height="68" />
-    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1276" height="68" />
-    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1276" height="68" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1276" height="58" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1276" height="58" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1276" height="58" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1276" height="58" />
     <size key="search.everywhere.popup.0.0.1366.768" width="672" height="678" />
     <size key="FileChooserDialogImpl.0.0.1366.768" width="424" height="483" />
+    <size key="ide.config.custom.settings.0.0.1366.768" width="1255" height="127" />
   </component>
 </application>
