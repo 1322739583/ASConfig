@@ -64,4 +64,20 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
+  <template name="baseRecyclerViewAdapterHelper" value="implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="dataBinding" value="    dataBinding {&#10;        enabled true&#10;    }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="rxpermissions" value=" implementation 'com.github.tbruyelle:rxpermissions:0.12'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="appcompat" value="implementation 'androidx.appcompat:appcompat:1.1.0'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
 </templateSet>

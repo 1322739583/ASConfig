@@ -1,0 +1,7 @@
+<templateSet group="Groovy">
+  <template name="utilcodex" value="implementation 'com.blankj:utilcodex:1.29.0'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>
