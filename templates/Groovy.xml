@@ -4,4 +4,19 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
+  <template name="rxjava3" value="    //rxjava3&#10;    implementation 'io.reactivex.rxjava3:rxjava:3.0.4'&#10;    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="rxPermissions" value="if (rxPermissions==null){&#10;    rxPermissions = new RxPermissions(this);&#10;}&#10;rxPermissions&#10;        .requestEach(Manifest.permission.CAMERA,&#10;                Manifest.permission.WRITE_EXTERNAL_STORAGE)&#10;        .subscribe(permission -&gt; { // will emit 2 Permission objects&#10;            if (permission.granted) {&#10;                // `permission.name` is granted !&#10;                Log.d(TAG, permission.name+&quot;权限申请成功&quot;);&#10;            } else if (permission.shouldShowRequestPermissionRationale) {&#10;                // 没有勾选不在提示的拒绝&#10;                Log.d(TAG, permission.name+&quot;权限申请被拒绝&quot;);&#10;            } else {&#10;                Log.d(TAG, permission.name+&quot;权限申请被永久拒绝&quot;);&#10;                // 勾选了不在提示的拒绝&#10;                Toast.makeText(this,&#10;                        &quot;没有权限 请到设置中开启&quot;,&#10;                        Toast.LENGTH_SHORT).show();&#10;            }&#10;        });&#10;    " description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lombok" value="//lombok&#10;compileOnly 'org.projectlombok:lombok:1.18.16'&#10;annotationProcessor 'org.projectlombok:lombok:1.18.16'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
 </templateSet>
