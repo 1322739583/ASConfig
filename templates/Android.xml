@@ -1,7 +1,7 @@
 <templateSet group="Android">
-  <template name="aliyun" value="maven { url 'https://maven.aliyun.com/repository/google' }&#10;maven { url 'https://maven.aliyun.com/repository/jcenter' }" description="aliyun maven" toReformat="false" toShortenFQNames="true">
+  <template name="aliyun" value="maven { url 'https://maven.aliyun.com/repository/google' }&#10;maven { url 'https://maven.aliyun.com/repository/jcenter' }&#10;maven { url 'https://jitpack.io' }" description="aliyun maven" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="OTHER" value="true" />
+      <option name="GROOVY" value="true" />
     </context>
   </template>
   <template name="sch" value=".observeOn(AndroidSchedulers.mainThread())&#10;.subscribeOn(Schedulers.io())&#10;" description="" toReformat="false" toShortenFQNames="true">
@@ -70,12 +70,27 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="rxpermissions" value=" implementation 'com.github.tbruyelle:rxpermissions:0.12'" description="" toReformat="false" toShortenFQNames="true">
+  <template name="rxpermissions" value="//rxjava3&#10;implementation 'io.reactivex.rxjava3:rxjava:3.0.4'&#10;implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'&#10;    &#10;implementation 'com.github.tbruyelle:rxpermissions:0.12'" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
   <template name="appcompat" value="implementation 'androidx.appcompat:appcompat:1.1.0'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="toucheventcase" value="        switch (ev.getAction()) {&#10;            case MotionEvent.ACTION_DOWN:&#10;                break;&#10;            case MotionEvent.ACTION_MOVE:&#10;                break;&#10;            case MotionEvent.ACTION_UP:&#10;                break;&#10;            default:&#10;                break;&#10;        }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="aopNetwork" value="    @NetworkCheck&#10;    public void networkOk(){&#10;        &#10;    }&#10;    &#10;    @NoNetwork&#10;    public void noNetwork(){&#10;        &#10;    }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="banner" value="implementation 'com.youth.banner:banner:2.1.0'" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
