@@ -19,9 +19,79 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="apache-commons" value="implementation 'org.apache.commons:commons-lang3:3.11'" description="" toReformat="false" toShortenFQNames="true">
+  <template name="apache-commons" value="implementation 'org.apache.commons:commons-lang3:3.11'&#10;implementation 'commons-io:commons-io:2.7'" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="guava" value="implementation 'com.google.guava:guava:24.1'" description="guava" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="signKey" value="signingConfigs {&#10;    debug {&#10;        storeFile file('/home/xzh/.android/androidbase.jks')&#10;        storePassword '123456'&#10;        keyAlias = 'key0'&#10;        keyPassword '123456'&#10;    }&#10;}" description="signingConfigs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="minify" value="// 混淆&#10;minifyEnabled true&#10;// Zipalign优化&#10;zipAlignEnabled true&#10;// 移除无用的resource文件&#10;shrinkResources true" description="minify" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="optimize" value="org.gradle.parallel=true&#10;&#10;org.gradle.configureondemand=true&#10;&#10;org.gradle.daemon=true&#10;        &#10;org.gradle.caching=true" description="优化加速" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+    </context>
+  </template>
+  <template name="gradleLocalPath" value="distributionUrl=file\:///home/xzh/gradle/gradle-7.2-bin.zip" description="指定gradle本地路径" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+    </context>
+  </template>
+  <template name="apkName" value="//放在buildType/release或者debug下&#10;android.applicationVariants.all { variant -&gt;&#10;                variant.outputs.all {&#10;                    //outputFileName = &quot;app-${defaultConfig.versionName}-beta1-${releaseTime()}.apk&quot;&#10;                    outputFileName = &quot;app-beta1-${releaseTime()}.apk&quot;&#10;                }&#10;            }&#10;//放在顶层位置            &#10;def releaseTime() {&#10;    return new Date().format(&quot;yyyyMMddHHmm&quot;, TimeZone.getTimeZone(&quot;GMT+08:00&quot;))&#10;}" description="打包发布apk的名字" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+    </context>
+  </template>
+  <template name="arouter" value="api 'com.alibaba:arouter-api:1.5.2'&#10;annotationProcessor 'com.alibaba:arouter-compiler:1.5.2'" description="arouter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="KOTLIN" value="true" />
     </context>
   </template>
 </templateSet>

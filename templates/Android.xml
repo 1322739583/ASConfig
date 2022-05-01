@@ -24,7 +24,7 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="dagger" value="//dagger&#10;implementation 'com.google.dagger:dagger-android:2.15'&#10;implementation 'com.google.dagger:dagger-android-support:2.15'&#10;annotationProcessor 'com.google.dagger:dagger-android-processor:2.15'&#10;implementation 'com.google.dagger:dagger:2.26'&#10;annotationProcessor 'com.google.dagger:dagger-compiler:2.26'" description="" toReformat="false" toShortenFQNames="true">
+  <template name="dagger" value="//dagger&#10;implementation 'com.google.dagger:dagger:2.26'&#10;annotationProcessor 'com.google.dagger:dagger-compiler:2.26'" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
@@ -64,7 +64,7 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="baseRecyclerViewAdapterHelper" value="implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="baseRecyclerViewAdapterHelper" value="implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'" description="" toReformat="false" toShortenFQNames="true" deactivated="true" />
   <template name="dataBinding" value="    dataBinding {&#10;        enabled true&#10;    }" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
@@ -93,6 +93,16 @@
   <template name="banner" value="implementation 'com.youth.banner:banner:2.1.0'" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="timeUsed" value="long start = System.currentTimeMillis();&#10;$SELECTION$&#10;long end = System.currentTimeMillis();&#10;Log.d(&quot;TranslateActivity&quot;, &quot;cast time:&quot;+(end-start)/1000+&quot;s&quot;);" description="time  count" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ViewGroup_OnMeasure" value="int widthMode = MeasureSpec.getMode(widthMeasureSpec);&#10;int widthSize = MeasureSpec.getSize(widthMeasureSpec);&#10;int heightMode = MeasureSpec.getMode(heightMeasureSpec);&#10;int heightSize = MeasureSpec.getSize(widthMeasureSpec);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
     </context>
   </template>
 </templateSet>

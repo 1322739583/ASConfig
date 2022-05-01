@@ -1,0 +1,87 @@
+<templateSet group="AndroidXML">
+  <template name="vvCenter" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;app:layout_constraintLeft_toLeftOf=&quot;parent&quot;&#10;app:layout_constraintRight_toRightOf=&quot;parent&quot;&#10;app:layout_constraintTop_toTopOf=&quot;parent&quot;" description="center in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_ATTRIBUTE" value="true" />
+    </context>
+  </template>
+  <template name="vvpbr" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;app:layout_constraintRight_toRightOf=&quot;parent&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvpbl" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;app:layout_constraintLeft_toLeftOf=&quot;parent&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvptr" value="app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;app:layout_constraintRight_toRightOf=&quot;parent&quot;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvptl" value="app:layout_constraintLeft_toLeftOf=&quot;parent&quot;&#10;app:layout_constraintTop_toTopOf=&quot;parent&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvbt" value="app:layout_constraintBottom_toTopOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvtb" value="app:layout_constraintTop_toBottomOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvbb" value="app:layout_constraintBottom_toBottomOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvll" value="app:layout_constraintLeft_toLeftOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvlr" value="app:layout_constraintLeft_toRightOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvrl" value="app:layout_constraintRight_toLeftOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvrr" value="app:layout_constraintRight_toRightOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvtt" value="app:layout_constraintTop_toTopOf=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="list" value="java.util.List&amp;lt;$1$&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="map" value="java.util.Map&amp;lt;$key$,$value$&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vvh" value="app:layout_constraintLeft_toLeftOf=&quot;parent&quot;&#10;app:layout_constraintRight_toRightOf=&quot;parent&quot;&#10;app:layout_constraintTop_toBottomOf=&quot;@+id/btn$VAR$&quot;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="complete()" defaultValue="btn" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

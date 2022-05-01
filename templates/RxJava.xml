@@ -1,0 +1,37 @@
+<templateSet group="RxJava">
+  <template name="rrobseveri" value="new Observer&lt;Integer&gt;() {&#10;        @Override&#10;        public void onSubscribe(Disposable d) {&#10;            //数据开关，直接关闭&#10;            //d.dispose();&#10;        }&#10;&#10;        @Override&#10;        public void onNext(Integer i) {&#10;            try {&#10;                Thread.sleep(500);&#10;            } catch (InterruptedException e) {&#10;                e.printStackTrace();&#10;            }&#10;            Log.d(&quot;$TAG$&quot;, i + &quot; &quot; + Thread.currentThread().getName());&#10;        }&#10;&#10;        @Override&#10;        public void onError(Throwable e) {&#10;            e.printStackTrace();&#10;            Log.d(&quot;$TAG$&quot;, &quot;onError&quot;);&#10;        }&#10;&#10;        @Override&#10;        public void onComplete() {&#10;            Log.d(&quot;$TAG$&quot;, &quot;onComplete&quot;);&#10;        }&#10;    }" description="int obsever" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rrobsevers" value="new Observer&lt;String&gt;() {&#10;        @Override&#10;        public void onSubscribe(Disposable d) {&#10;            //数据开关，直接关闭&#10;            //d.dispose();&#10;        }&#10;&#10;        @Override&#10;        public void onNext(String s) {&#10;            try {&#10;                Thread.sleep(500);&#10;            } catch (InterruptedException e) {&#10;                e.printStackTrace();&#10;            }&#10;            Log.d(&quot;$TAG$&quot;, s + &quot; &quot; + Thread.currentThread().getName());&#10;        }&#10;&#10;        @Override&#10;        public void onError(Throwable e) {&#10;            e.printStackTrace();&#10;            Log.d(&quot;$TAG$&quot;, &quot;onError&quot;);&#10;        }&#10;&#10;        @Override&#10;        public void onComplete() {&#10;            Log.d(&quot;$TAG$&quot;, &quot;onComplete&quot;);&#10;        }&#10;    }" description="String Obsever" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rrrangei" value="Observable&#10;        .range(5,3)&#10;        .subscribe(new Observer&lt;Integer&gt;() {&#10;            @Override&#10;            public void onSubscribe(Disposable d) {&#10;                //数据开关，直接关闭&#10;                //d.dispose();&#10;            }&#10;&#10;            @Override&#10;            public void onNext(Integer i) {&#10;                try {&#10;                    Thread.sleep(500);&#10;                } catch (InterruptedException e) {&#10;                    e.printStackTrace();&#10;                }&#10;                Log.d(&quot;$TAG$&quot;, i + &quot; &quot; + Thread.currentThread().getName());&#10;            }&#10;&#10;            @Override&#10;            public void onError(Throwable e) {&#10;                e.printStackTrace();&#10;                Log.d(&quot;$TAG$&quot;, &quot;onError&quot;);&#10;            }&#10;&#10;            @Override&#10;            public void onComplete() {&#10;                Log.d(&quot;$TAG$&quot;, &quot;onComplete&quot;);&#10;            }&#10;        });" description="int range" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rrjusts" value="Observable&#10;        .just(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;)&#10;        .subscribe(new Observer&lt;String&gt;() {&#10;            @Override&#10;            public void onSubscribe(Disposable d) {&#10;                //数据开关，直接关闭&#10;                //d.dispose();&#10;            }&#10;&#10;            @Override&#10;            public void onNext(String s) {&#10;                try {&#10;                    Thread.sleep(500);&#10;                } catch (InterruptedException e) {&#10;                    e.printStackTrace();&#10;                }&#10;                Log.d(&quot;$TAG$&quot;, s + &quot; &quot; + Thread.currentThread().getName());&#10;            }&#10;&#10;            @Override&#10;            public void onError(Throwable e) {&#10;                e.printStackTrace();&#10;                Log.d(&quot;$TAG$&quot;, &quot;onError&quot;);&#10;            }&#10;&#10;            @Override&#10;            public void onComplete() {&#10;                Log.d(&quot;$TAG$&quot;, &quot;onComplete&quot;);&#10;            }&#10;        });" description="String just" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rrjusti" value="Observable&#10;        .just(1,2,3)&#10;        .subscribe(new Observer&lt;Integer&gt;() {&#10;            @Override&#10;            public void onSubscribe(Disposable d) {&#10;                //数据开关，直接关闭&#10;                //d.dispose();&#10;            }&#10;&#10;            @Override&#10;            public void onNext(Integer i) {&#10;                try {&#10;                    Thread.sleep(500);&#10;                } catch (InterruptedException e) {&#10;                    e.printStackTrace();&#10;                }&#10;                Log.d(&quot;$TAG$&quot;, i + &quot; &quot; + Thread.currentThread().getName());&#10;            }&#10;&#10;            @Override&#10;            public void onError(Throwable e) {&#10;                e.printStackTrace();&#10;                Log.d(&quot;$TAG$&quot;, &quot;onError&quot;);&#10;            }&#10;&#10;            @Override&#10;            public void onComplete() {&#10;                Log.d(&quot;$TAG$&quot;, &quot;onComplete&quot;);&#10;            }&#10;        });" description="int just" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

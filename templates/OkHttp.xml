@@ -1,0 +1,14 @@
+<templateSet group="OkHttp">
+  <template name="oorequest" value="Request request = new Request.Builder()&#10;        .url(&quot;$URL$&quot;)&#10;        .build();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="URL" expression="enum(&quot;http://www.baidu.com&quot;,&quot;http://www.github.com&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ooget" value="        OkHttpClient client = new OkHttpClient();&#10;        Request request = new Request.Builder()&#10;                .url(&quot;http://www.baidu.com&quot;)&#10;                .build();&#10;        client.newCall(request).enqueue(new Callback() {&#10;            @Override&#10;            public void onFailure(Call call, IOException e) {&#10;                e.printStackTrace();&#10;            }&#10;&#10;            @Override&#10;            public void onResponse(Call call, Response response) throws IOException {&#10;                String json = response.body().string();&#10;                Log.d(&quot;$CLASS_NAME$&quot;, &quot;response.code():&quot; + response.code());&#10;                Log.d(&quot;$CLASS_NAME$&quot;, json);&#10;            }&#10;        });" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
